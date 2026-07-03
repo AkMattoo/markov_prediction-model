@@ -1,0 +1,14 @@
+{
+  "obligors": [
+    {"name": "Northern Energy Holdings",   "rating": "AAA", "ead": 2000000, "lgd": 0.45},
+    {"name": "Pinecrest Municipal Bonds",  "rating": "AA",  "ead": 1500000, "lgd": 0.40},
+    {"name": "Atlas Industrial Group",     "rating": "A",   "ead": 1200000, "lgd": 0.45},
+    {"name": "Cedar Valley Logistics",     "rating": "BBB", "ead": 1000000, "lgd": 0.45},
+    {"name": "Sunrise Retail Corp",        "rating": "BB",  "ead":  800000, "lgd": 0.55},
+    {"name": "Helios Energy Partners",     "rating": "B",   "ead":  600000, "lgd": 0.60},
+    {"name": "Frontier Tech Ventures",     "rating": "B",   "ead":  400000, "lgd": 0.65},
+    {"name": "Maritime Shipping Co",       "rating": "CCC", "ead":  250000, "lgd": 0.75},
+    {"name": "Beacon Hospitality",         "rating": "CCC", "ead":  150000, "lgd": 0.70},
+    {"name": "Sterling Real Estate Trust", "rating": "BB",  "ead":  500000, "lgd": 0.50}
+  ]
+}

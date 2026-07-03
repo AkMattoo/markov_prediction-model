@@ -1,0 +1,203 @@
+{
+  "horizon_years": 1,
+  "n_paths": 1000,
+  "portfolio": {
+    "obligors": [
+      {
+        "name": "Northern Energy Holdings",
+        "rating": "AAA",
+        "ead": 2000000.0,
+        "lgd": 0.45
+      },
+      {
+        "name": "Pinecrest Municipal Bonds",
+        "rating": "AA",
+        "ead": 1500000.0,
+        "lgd": 0.4
+      },
+      {
+        "name": "Atlas Industrial Group",
+        "rating": "A",
+        "ead": 1200000.0,
+        "lgd": 0.45
+      },
+      {
+        "name": "Cedar Valley Logistics",
+        "rating": "BBB",
+        "ead": 1000000.0,
+        "lgd": 0.45
+      },
+      {
+        "name": "Sunrise Retail Corp",
+        "rating": "BB",
+        "ead": 800000.0,
+        "lgd": 0.55
+      },
+      {
+        "name": "Helios Energy Partners",
+        "rating": "B",
+        "ead": 600000.0,
+        "lgd": 0.6
+      },
+      {
+        "name": "Frontier Tech Ventures",
+        "rating": "B",
+        "ead": 400000.0,
+        "lgd": 0.65
+      },
+      {
+        "name": "Maritime Shipping Co",
+        "rating": "CCC",
+        "ead": 250000.0,
+        "lgd": 0.75
+      },
+      {
+        "name": "Beacon Hospitality",
+        "rating": "CCC",
+        "ead": 150000.0,
+        "lgd": 0.7
+      },
+      {
+        "name": "Sterling Real Estate Trust",
+        "rating": "BB",
+        "ead": 500000.0,
+        "lgd": 0.5
+      }
+    ],
+    "total_ead": 8400000.0
+  },
+  "transition_matrix": {
+    "AAA": [
+      0.908,
+      0.082,
+      0.008,
+      0.001,
+      0.0005,
+      0.0003,
+      0.0001,
+      0.0001
+    ],
+    "AA": [
+      0.007,
+      0.905,
+      0.078,
+      0.007,
+      0.001,
+      0.001,
+      0.0005,
+      0.0005
+    ],
+    "A": [
+      0.0006,
+      0.023,
+      0.908,
+      0.055,
+      0.008,
+      0.003,
+      0.001,
+      0.0014
+    ],
+    "BBB": [
+      0.0002,
+      0.003,
+      0.05,
+      0.895,
+      0.038,
+      0.009,
+      0.002,
+      0.0028
+    ],
+    "BB": [
+      0.0001,
+      0.0008,
+      0.0055,
+      0.061,
+      0.852,
+      0.061,
+      0.0096,
+      0.01
+    ],
+    "B": [
+      0.0001,
+      0.0004,
+      0.0015,
+      0.006,
+      0.07,
+      0.83,
+      0.06,
+      0.032
+    ],
+    "CCC": [
+      0.0,
+      0.0002,
+      0.0008,
+      0.0025,
+      0.015,
+      0.1,
+      0.65,
+      0.2315
+    ],
+    "D": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "expected_credit_loss": {
+    "total": 98100.0,
+    "per_obligor": {
+      "Northern Energy Holdings": 0.0,
+      "Pinecrest Municipal Bonds": 0.0,
+      "Atlas Industrial Group": 1080.0,
+      "Cedar Valley Logistics": 1800.0,
+      "Sunrise Retail Corp": 5280.000000000001,
+      "Helios Energy Partners": 9000.0,
+      "Frontier Tech Ventures": 8580.0,
+      "Maritime Shipping Co": 45000.0,
+      "Beacon Hospitality": 24360.0,
+      "Sterling Real Estate Trust": 3000.0
+    }
+  },
+  "cumulative_pd": {
+    "simulated": {
+      "Northern Energy Holdings": 0.0,
+      "Pinecrest Municipal Bonds": 0.0,
+      "Atlas Industrial Group": 0.002,
+      "Cedar Valley Logistics": 0.004,
+      "Sunrise Retail Corp": 0.012,
+      "Helios Energy Partners": 0.025,
+      "Frontier Tech Ventures": 0.033,
+      "Maritime Shipping Co": 0.24,
+      "Beacon Hospitality": 0.232,
+      "Sterling Real Estate Trust": 0.012
+    },
+    "analytical": {
+      "Northern Energy Holdings": 0.00010000000000010001,
+      "Pinecrest Municipal Bonds": 0.000500000000000056,
+      "Atlas Industrial Group": 0.0013999999999999568,
+      "Cedar Valley Logistics": 0.0027999999999999137,
+      "Sunrise Retail Corp": 0.010000000000000009,
+      "Helios Energy Partners": 0.03200000000000003,
+      "Frontier Tech Ventures": 0.03200000000000003,
+      "Maritime Shipping Co": 0.23149999999999993,
+      "Beacon Hospitality": 0.23149999999999993,
+      "Sterling Real Estate Trust": 0.010000000000000009
+    }
+  },
+  "terminal_rating_distribution": {
+    "AAA": 0.0915,
+    "AA": 0.1001,
+    "A": 0.1069,
+    "BBB": 0.1097,
+    "BB": 0.1956,
+    "B": 0.197,
+    "CCC": 0.1432,
+    "D": 0.056
+  },
+  "mean_rating_drift_buckets": 0.1984
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+markov-risk = markov_risk.cli:main
